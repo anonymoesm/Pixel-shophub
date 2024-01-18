@@ -1,150 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt">
-   <head>
-      <!-- Primary Meta Tags -->
-      <title>🌴 ・ Smashzada</title>
-      <link rel="icon" href="assets/img/logs.png">
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Smashzada - Site">
-      <meta name="description" content="Smashzada 7">
-      
-      <!-- Css -->
-      <link rel="stylesheet" href="assets/css/style.css">
-      
-      <!-- Fonts -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-   
-    </head>
-   <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Jump Man</title>
+    
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="buttom.css">
+</head>
 
-      <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
-      <div class="player-ctrl">
-      
-        <!-- Play Button -->
-        <a id="podcast-play" onclick="playShow()"><i class="fas fa-play" style='color:#4b494b'></i></a>
-      
-        <!-- Pause Button -->
-        <a id="podcast-pause" onclick="pauseShow()" style="display:none;"><i class="fa fa-pause" style="color:#4e4e4b"></i></a>
-      </div>
-      
-      
-      <!-- Audio player -->
-      <audio id="podcast-audio">
-          <source src="https://cdn.discordapp.com/attachments/1068673030148079619/1152742299487436800/Fernando_de_Noronha.mp3" type="audio/mp3">
-      </audio>
 
-    <!-- Nav Bar -->
-      <header>
-         <nav>
-            <div class="header_logo">
-               <a href="#"><img src="assets/img/logo.gif" alt="" srcset=""></a>
-            </div>
-            <div class="header_links">
-               <ul class="nav_links">
-                  <li class="nav_link"><a href="#">Home</a></li>
-               </ul>
-            </div>
-         </nav>
-      </header>
-      
-      <!-- Main -->
-      <section class="main">
-         <img src="assets/img/pfp.gif" alt="" srcset="">
-         <span>Smashzada 7</span>
-         <p>Meu tempo é dinheiro. 👑 #777</p>
-         <ul>
-            <li><a target="_blank" href="https://discord.gg/xYB4knEbtw"><i class="fab fa-discord"></i></a></li>
-            <li><a target="_blank" href="https://www.instagram.com/smash.krlh7/"><i class="fab fa-instagram"></i></a></li>
-            <li><a target="_blank" href="https://youtu.be/KZi9nwYR6hY"><i class="fab fa-youtube"></i></a></li>
-         </ul>
-         <div class="gotodown">
-            <a href="#about"><i class='bx bx-chevrons-down' ></i></a>
-         </div>
-      </section>
-      <!-- About -->
-      <section id="about" class="infos reveal">
-         <div class="title">
-            <span>SOBRE</span>
-            <hr>
-         </div>
-         <div class="content">
-            <div class="boxe">
-               <div class="left">
-                  <img src="assets/img/smash.jpg" alt="">
-               </div>
-               <div class="right">
-                  <h1>Smashzada</h1>
-                  <p></p><i class='fas fa-laptop' style='font-size:16px;color:rgb(255, 255, 255)'></i>Desenvolvedor em JS e Python<br>
-                     <i class='fas fa-wallet' style='font-size:16px;color:rgb(255, 255, 255)'></i>Faturando alguns dígitos<br>
-                     <i class='fas fa-heart' style='font-size:16px;color:rgb(255, 255, 255)'></i>Fundador Cpx Store
-                  </p>
-               </div>
-            </div>
-         </div>
-      </section>
-      
-      <!-- Services -->
-      <section id="services" class="infos reveal services">
-         <div class="title">
-            <span>SERVIÇOS</span>
-            <hr>
-         </div>
-         <div class="content">
-            <div class="boxes">
-               <div class="box">
-                  <i class='bx bxl-windows bx-tada' style='color:#1292d4' ></i>
-                  <span>Máquinas virtual</span>
-                  <p>A partir de R$ 5,99</p>
-                  <ul>
-                    <li>Máquinas Linux</li>
-                    <li>Máquinas Windows</li>
-                    <li>Todas com Ping BR</li>
-                    <li>Duração Mensal</li>
-                    <li>E muito mais</li>
-                </ul>
-                <a href="https://discord.gg/xYB4knEbtw">Saiba Mais</a>
-               </div>
-               <div class="box">
-                  <i class='bx bxl-visual-studio bx-rotate-90 bx-tada' style='color:#1292d4'  ></i>
-                  <span>BOTS DISCORD</span>
-                  <p>A partir de R$ 9,99</p>
-                  <ul>
-                    <li>Scripts Únicos</li>
-                    <li>Scripts Prontos</li>
-                    <li>Aluguel de Bots</li>
-                    <li>Feitos em JS e PY</li>
-                    <li>E muito mais</li>
-                </ul>
-                <a href="https://discord.gg/xYB4knEbtw">Saiba Mais</a>
-               </div>
-               <div class="box">
-                  <i class='bx bx-store-alt bx-tada' style='color:#1292d4' ></i>
-                  <span>Assinaturas</span>
-                  <p>A partir de R$ 4,99</p>
-                  <ul>
-                    <li>Spotify</li>
-                    <li>Crunchyroll</li>
-                    <li>Hbo Max</li>
-                    <li>Nitro</li>
-                    <li>E muito mais</li>
-                </ul>
-                  <a href="https://discord.gg/xYB4knEbtw">Saiba Mais</a>
-               </div>
-            </div>
-         </div>
-      </section>
-      
-      <!-- Footer -->
-      <div class="footer">
-         <div class="container">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> Cpx Store. Todos os direitos reservados.</p>
-         </div>
-      </div>
-      
-      <!-- Javascript -->
-      <script src="assets/js/app.js"></script>
+<body>
+    <div class="div-global">
+    <header>
+        
+        <nav class="header3" >
+            <a href="https://discord.gg/CKf62nh8"> <img src="img/nike.svg" width="150" height="90">  </a>
+        </nav>
 
+        <nav class="header1" >
+            <a href="https://discord.gg/CKf62nh8" target="_blank" buttom="inic" class="home"> HOME</a>
+            <a href="https://discord.gg/CKf62nh8" target="_blank" buttom="inic"> MAN</a>
+            <a href="https://discord.gg/CKf62nh8" target="_blank" buttom="inic"> WOMAN</a>
+            <a href="https://discord.gg/CKf62nh8" target="_blank" buttom="inic"> KIDS</a>
+        </nav>
+
+        <nav class="header2" >
+            <a target="_blank" href="https://discord.gg/CKf62nh8"> <img src="img/lupa.svg"  width="35" height="35"> </a>
+            <a target="_blank" href="https://discord.gg/CKf62nh8"> <img src="img/sale.svg"  width="40" height="40" > </a>
+            <a target="_blank"  href="https://discord.gg/CKf62nh8"> <img src="img/user.svg"  width="40" height="40" > </a>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <div class="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="137" height="22" viewBox="0 0 137 22" fill="none">
+            <path d="M0 0H137V22H0V0Z" fill="#0D9EFF"/>
+        </svg>
+
+        </div>
+
+        <img class="tenis" src="img/nike.png" alt="" width="650">
+        <img class="jump" src="img/jump.png" alt="" >
+ 
+        <!-- <img class="tenisfundo" src="img/nike fundo trasparente.svg" alt="" > -->
+        <img class="sapatos" src="img/nikes.png" alt="nikes" >
+
+
+        <img class="risco " src="img/risco acima.svg" alt="">
+        <img class="risco1" src="img/risco abaixo.svg" alt="">
+
+
+
+        <section >
+            <div class="text-valor">
+                <h1 >134$</h1>
+            </div>
+
+            <div class="text-product">
+                <h2> NIKE VAPORMAX </h2>
+            </div>
+
+            <div class="text-color">
+                <h3>COLOR SELECT :</h3>
+            </div>
+
+            <!-- <div class="text-title">
+                <h1>Nike Vapormax</h1>
+            </div> -->
+           
+
+
+            <div class="text-frase">
+            <p>Launched in 1998, the Nike Vapormax <br> is one of the most sougaht-after <br> sneakers from the brand .</p>
+            </div>
+
+        </section>
+
+        <section >
+
+            <div class="botao" >
+                
+                <Button class="addcard" >   ADD CARD  </Button> 
+                <Button class="buynow"  >   BUY NOW  </Button> 
+            </div>
+
+        </section>
+
+    </main>
+
+    <Footer>
+        <div> 
+            <p class="footer-text"> Desenvolvido por <a  href=""> @userdev </a> , um iniciante  em  HTML e CSS! . . .</p>
+        </div>
+    </Footer>
+
+</div>
+</body>
 </html>

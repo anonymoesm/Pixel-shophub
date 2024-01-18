@@ -1,0 +1,248 @@
+/* 01. RESET CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+@font-face {
+    font-family: 'tatic';
+    src: url('fonts/tacticsansexd-blk.otf');
+ }
+
+ @font-face {
+  font-family: 'akira';
+  src: url("fonts/Akira\ Expanded\ Demo.otf");
+ }
+
+ @font-face {
+  font-family: 'paladins';
+  src: url("fonts/paladinssemiital.ttf");
+ }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.div-global {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("https://cdn.discordapp.com/attachments/1046868493322174594/1196618577512513616/niksse.png?ex=65b848e4&is=65a5d3e4&hm=1bf2e69192968e55a157013eb392c5d30e1cd7ef1cb5a98a7016a8f0627a1d37&");
+  background-color: rgb(10, 10, 10);
+}
+
+
+.header1 , .header2 , .header3 {
+    display: flex;
+    gap: 10px;
+}
+
+
+.text-valor {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 40px;
+  transform: translate3d(291px, -67px, 3em);
+  color: #f7f7f7;
+  text-align: center;
+  font-family: 'tatic';
+  background: linear-gradient(185deg, #0496FF 36.94%, rgba(4, 150, 255, 0.00) 90.41%);
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+header {
+    /* flexivel para mover items em posicionamento da minha escolha */
+    display: flex;
+    /* direçao do flex display a direçao que posso setar a direçao  */
+    flex-direction: row;
+    /* ele joga todo separa os obejetos  */
+    justify-content: space-between;
+    /* alinhar items na linha decidida */
+    align-items: center;
+    margin: 0 50px;
+}
+
+ .tenis {
+     display: flex;
+     position: relative;
+     left: 674px;
+     top: 123px;
+     transform: rotate(337deg);
+ }
+
+   .tenis1 {
+   display: block;
+   margin-left: 10px;
+   width: 1862.126px;
+   height: 73.1000px;
+   flex-shrink: 0;
+ }
+ 
+ body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+ }
+
+.header1 {
+  position: relative;
+  left: 63px;
+  gap: 30px;
+}
+
+.header1 a {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'tatic';
+    text-decoration: none;
+  }
+
+
+header nav .home {
+    border-bottom: 7px solid #079CFF;
+
+}
+
+.header2 {
+ gap: 56px;
+}
+
+.header3 {
+  transform: scale(1.2);
+}
+
+
+
+.text-color {
+  margin-left: 70px;
+  font-family: akira;
+  color: #FFF;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/* .text.title {
+  transform: translate3d(1506px, -44px, 3em);
+  font-family: Poppins;
+  color: #FFF;
+} */
+
+.text-frase {
+  transform: translate3d(1506px, -44px, 3em);
+  font-family: Poppins;
+  color: #FFF;
+}
+
+
+
+svg {
+  position: fixed;
+  left: 1589px;
+  top: 682px;
+  right: 10px;
+}
+
+.svg1  {
+  position: absolute;
+  transform: translate3d(-1803px, -478px, 3em);
+}
+
+.risco {
+  position: absolute;
+  transform: translate3d(-1803px, -478px, 3em);
+}
+
+.risco1 {
+  position: absolute;
+  transform: translate3d(-472px, 138px, -4em);
+}
+
+.text-product {
+  object-fit: cover;
+  display: flex;
+  left: 10rem;
+  font-size: 20px;
+  font-family: paladins;
+  transform: translate3d(326px, -130px, 3em);
+  margin-bottom: 47px;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.39px;
+}
+
+.jump {
+  object-fit: cover;
+  width: 111rem;
+  transform: translate3d(34px, -65px, 3em);
+}
+
+.tenisfundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate3d(-24px, -17px, 3em);
+}
+
+ footer a {
+  color: aliceblue;
+  padding: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+ }
+
+ footer a {
+  color: #0e0e0e;
+ }
+
+ .footer-text {
+  object-fit: cover;
+   color: #f7f7f7;
+   text-align: center;
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: 800;
+ }
+
+ .sapatos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate3d(82px, 731px, 3em);
+  width: 166px;
+ }
+
+footer {
+  transform: translate3d(0px, 19px, 3em);
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 34%;
+  max-width: 100%;
+  background: linear-gradient(270deg, rgba(10, 108, 255, 0.85) 25.09%, rgba(22, 159, 255, 0.85) 49.03%, rgba(25, 172, 255, 0.85) 57.87%, rgba(37, 85, 255, 0.85) 73.12%);
+  box-shadow: 0px 7px 131.1px -7px rgba(12, 109, 255, 0.85);
+ }
+
